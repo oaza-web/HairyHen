@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oaza-web.github.io/HairyHen/sitemap.xml
