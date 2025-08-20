@@ -76,8 +76,30 @@
       <a href="#" class="button">Join the Coop</a>
     </section>
   </main>
+  <!-- Join the Coop — section START -->
+<section id="join" class="panel alt">
+  <div class="container center">
+    <h2>Join the Coop</h2>
+    <p>Buď pri tom od začiatku. Získaj novinky a airdropy HEN.</p>
+
+    <form id="join-form" class="signup" novalidate>
+      <input type="email" id="join-email" placeholder="tvoj@email.com" required />
+      <button class="btn primary" type="submit">Odoslať</button>
+    </form>
+
+    <div id="join-msg" class="msg" role="status" aria-live="polite"></div>
+
+    <div class="mini-tools">
+      <button id="export-btn" class="btn ghost" type="button">Exportovať e-maily (.csv)</button>
+    </div>
+
+    <p class="tiny">Pozn.: Dočasné lokálne ukladanie do prehliadača. Neskôr prepojíme s Mailchimp/Beehiiv.</p>
+  </div>
+</section>
+<!-- Join the Coop — section END -->
   <footer>
     <p>© 2025 Hairy Hen — Born to protect. 🪿</p>
   </footer>
+  <script src="./join.js"></script>
 </body>
 </html>
