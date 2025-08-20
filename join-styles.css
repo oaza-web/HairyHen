@@ -1,0 +1,6 @@
+
+/* Join the Coop — minimal CSS (pridaj na koniec style.css) */
+#join .mini-tools { margin-top: 12px; display:flex; gap:10px; justify-content:center; }
+#join .tiny { font-size: 12px; color: #666; margin-top: 10px; }
+#join .msg.success { color: #1a7f37; }
+#join .msg.error { color: #b42318; }
